@@ -24,7 +24,7 @@ function App() {
           id="home"
           className="text-black bg-white dark:bg-black dark:text-white md:h-screen"
         >
-          <div className="container mx-auto flex px-5 py-24 md:py-32 md:flex-row flex-col items-center">
+          <div className="container mx-auto flex px-5 py-24 md:py-32 md:flex-row flex-col items-center overflow-visible">
             <motion.div initial={{y:200, opacity:.1}} whileInView={{y:0, opacity:1}} transition={{ease: "easeOut", duration: 0.5}} className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
                 Rasakan Lezatnya Burger 
@@ -224,7 +224,7 @@ function App() {
           className="text-black dark:text-white bg-white dark:bg-black"
         >
           <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
-            <motion.div initial={{scale: 1.5}} whileInView={{scale: 1}} transition={{duration: .7}} className="lg:max-w-lg lg:w-full md:w-1/2 w-full md:mb-0 mb-10">
+            <motion.div initial={{scale: 1.2}} whileInView={{scale: 1}} transition={{duration: .7}} className="lg:max-w-lg lg:w-full md:w-1/2 w-full md:mb-0 mb-10">
               <img
                 className="object-cover object-center rounded"
                 alt="hero"
